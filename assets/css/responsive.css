@@ -1,0 +1,241 @@
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .show-mobile-menu-icon, .show-search-icon {
+        font-size: 2rem;
+        color: #fff;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+
+    .show-mobile-search-box {
+        display: block;
+    }
+
+    .show-mobile-menu,
+    .show-search {
+        display: block;
+    }
+
+    .showing-menu {
+        display: block;
+    }
+    
+    .footer-certification{
+        width: 100px;
+        height: 38px;
+        position: absolute;
+        left: 0;
+        top: 22px;
+    }
+    
+    .footer-certification-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    } 
+
+    .footer-col {
+        margin-bottom: 30px;
+    }
+
+    .footer-col-list {
+        padding-top: 16px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .header-search-box-center {
+        max-width: 640px;
+    }
+
+    .banner__effect {
+        right: 7%;
+    }
+
+    .banner-wrap:hover .banner__effect {
+        transform: scale(5);
+    }
+
+    .banner__description {
+        bottom: 20px;
+        font-size: 1.1rem;
+        right: 30px;
+    }
+
+    .banner-wrap:hover .banner__search-icon {
+        transform: scale(1.5) translate(-20px, -10px);
+    }
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .header-navbar__logo-img {
+        height: 30px;
+        width: 50px;
+    }
+
+    .nav-menu__body {
+        right: 50%;
+    }
+
+    .header-search-box {
+        height: 380px;
+    }
+
+    .header-search-box-center {
+        max-width: 280px;
+        min-width: 220px;
+    }
+    
+    .header-search-box__input-search {
+        flex: 1;
+        border: none;
+        outline: none;
+        font-size: 1.8rem;
+        color: #9b9b9b;
+    }
+    
+    .header-search-box__btn-search {
+        display: block;
+        text-decoration: none;
+        font-size: 2rem;
+        color: #7e7e7e;
+    }
+
+    .header-search-box__logo {
+        width: 70px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .your-cart {
+        width: 350px;
+    }
+
+    .cart-bottom__btn-oder {
+        width: 310px;
+    }
+
+    .nav-menu__body-item-link {
+        font-size: 1.8rem;
+        padding-left: 50px;
+    }
+
+    .slider__model__item-text {
+        position: absolute;
+        top: 50%;  
+    }
+
+    .slider__model__item-heading {
+        font-size: 1.8rem;
+        line-height: 3rem;
+        min-width: 260px;
+    }
+
+    .slider__model__item-description {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .slider__model__item-btn-buy {
+        width: 113px;
+        height: 30px;
+        line-height: 30px;
+        color: var(--white-color);
+        font-size: 1.2rem;
+    }
+
+    .product-sale-name, .product-sale-price,
+    .product-trend-name, .product-trend-price,
+    .item-slide-bottom__name, .item-slide-bottom__price {
+        padding-left: 14px;
+    }
+
+    .notice-bot__text h4{
+        font-size: 2rem;
+    }
+    
+    .notice-bot__text span{
+        font-size: 1.8rem;
+    }
+
+    .notice-bot__input {
+        width: 300px;
+    }
+
+    .footer-col {
+        padding: 0 16px;
+        overflow: hidden;
+    }
+
+    .footer-below{
+        padding: 14px 16px;
+    }
+
+    .footer-below__heading {
+        margin-top: 20px;
+        font-size: 1.1rem;
+    }
+    
+    .footer-below p {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+    }
+
+    .footer-certification{
+        width: 80px;
+        height: 30px;
+        top: 6px;
+    }
+    
+    .footer-col {
+        text-align: center;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 374px) {
+    .your-cart {
+        width: 260px;
+    }
+
+    .cart-bottom__btn-oder {
+        width: 222px;
+    }
+
+    .cart-bottom__discount {
+        margin-left: 30px;
+        font-size: 1.2rem;
+    }
+
+    .auth-form {
+        height: 590px;
+        width: 300px;   
+    }
+
+    .btn.btn__login, .btn.btn__login-by-fb, .btn.btn__login-by-gg, .btn.btn__signup {
+        max-width: 250px;
+    }
+
+    .auth-form__control__label-signup {
+        font-size: 1.4rem;
+    }
+
+    .nav-menu__body-list {
+        position: relative;
+        left: 20px;
+    }
+}
+
+/* Small tablet */
+@media (min-width: 400px) and (max-width: 739px) {
+    .header-search-box-center {
+        max-width: 360px;
+    }
+}
